@@ -4,7 +4,7 @@ description: The dotnet-clean command cleans the current directory.
 keywords: dotnet-clean, CLI, CLI command, .NET Core
 author: blackdwarf
 ms.author: mairaw
-ms.date: 10/12/2016
+ms.date: 01/31/2017
 ms.topic: article
 ms.prod: .net-core
 ms.technology: dotnet-cli
@@ -12,22 +12,22 @@ ms.devlang: dotnet
 ms.assetid: eff65fa1-bab4-4421-8260-d0a284b690b2
 ---
 
-#dotnet-clean (Tooling )
+#dotnet-clean
 
 > [!WARNING]
 > This topic applies to Visual Studio 2017 RC - .NET Core Tools TODO:addtoolingstring 
 
 ## Name 
-dotnet-clean -- Cleans the output of a project 
+`dotnet-clean` -- Cleans the output of a project. 
 
 ## Synopsis
 
 `dotnet clean [--help] [--output]  [--framework]  
-    [--configuration]  [--runtime] [--verbosity]
+    [--configuration]  [--verbosity]
     [<project>]`
 
 ## Description
-The `dotnet clean` command will clean the output of the previous build. It is implemented as an MSBuild target, so the project will get evaluated. Only the outputs that were created during the build will be cleaned. Both intermediate (`obj`) and final output (`bin`) folders are cleaned. 
+The `dotnet clean` command will clean the output of the previous build. It is implemented as an MSBuild target, so the project will get evaluated. Only the outputs that were created during the build are cleaned. Both intermediate (`obj`) and final output (`bin`) folders are cleaned. 
 
 ## Options
 
@@ -47,7 +47,7 @@ The framework that was specified for the build that is cleaned. If you didn't sp
 
 Defines a configuration under which the build was running.  If omitted, it defaults to `Debug`. If you didn't specify this property during build time, you don't have to specify it for clean.
 
-`-v|--verbosity [Quiet|Minimal|Normal|Diag]
+`-v|--verbosity [Quiet|Minimal|Normal|Diag]`
 
 Defines verbosity to use for the invocation of the `dotnet clean` command. The verbosity levels are standard [MSBuild verbosity levels](https://msdn.microsoft.com/en-us/library/ms164311.aspx). 
 
