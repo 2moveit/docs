@@ -29,10 +29,10 @@ Specifies a NuGet dependency in the project. The `Include` attribute specifies t
 ```
 
 #### Version
-`<Version>` specifies the version of the package to restore. The element respects the rules of the NuGet versioning scheme.
+`Version` specifies the version of the package to restore. The element respects the rules of the NuGet versioning scheme.
 
 #### IncludeAssets
-`<IncludeAssets>` attribute specifies what assets belonging to the package specified by `<PackageReference>` should be 
+`IncludeAssets` attribute specifies what assets belonging to the package specified by `<PackageReference>` should be 
 consumed. 
 
 The attribute can contain one or more of the following values:
@@ -50,7 +50,7 @@ Alternatively, the attribute can contain:
 * `All` – all assets are used.
 
 #### ExcludeAssets
-`<ExcludeAssets>` attribute specifies what assets belonging to the package specified by `<PackageReference>` should not 
+`ExcludeAssets` attribute specifies what assets belonging to the package specified by `<PackageReference>` should not 
 be consumed.
 
 The attribute can contain one or more of the following values:
@@ -68,7 +68,7 @@ Alternatively, the element can contain:
 * `All` – all assets are used.
 
 #### PrivateAssets
-`<PrivateAssets>` attribute specifies what assets belonging to the package specified by `<PackageReference>` should be 
+`PrivateAssets` attribute specifies what assets belonging to the package specified by `<PackageReference>` should be 
 consumed but that they should not flow to the next project. 
 
 > [!NOTE]
@@ -97,7 +97,7 @@ a replacement for the `tools` node in `project.json`.
 ```
 
 #### Version
-`<Version>` specifies the version of the package to restore. The attribute respect the rules of the NuGet versioning scheme.
+`Version` specifies the version of the package to restore. The attribute respect the rules of the NuGet versioning scheme.
 
 ### RuntimeIdentifiers
 The `<RuntimeIdentifiers>` element lets you specify a semicolon-delimited list of [Runtime Identifiers (RIDs)](../../rid-catalog.md) for the project. 

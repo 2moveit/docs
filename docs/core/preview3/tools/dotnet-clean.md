@@ -41,7 +41,7 @@ Directory in which the built binaries were placed. You also need to define `--fr
 
 `-f|--framework <FRAMEWORK>`
 
-The framework that was specified for the build that is cleaned. If you didn't specify this property during build time, you don't have to specify it for clean. The framework needs to be defined in the [project file](csproj.md).
+The framework that was specified at build time. If you didn't specify this property during build time, you don't have to specify it for clean. The framework needs to be defined in the [project file](csproj.md).
 
 `-c|--configuration [Debug|Release]`
 

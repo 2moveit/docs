@@ -243,7 +243,7 @@ The following is the complete csproj file for this project:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
-\  <PropertyGroup>
+  <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.0</TargetFramework>
     <VersionPrefix>1.0.0</VersionPrefix>
