@@ -58,6 +58,6 @@ Clean a default build of the project:
 
 `dotnet clean`
 
-Clean a project built using Release configuration:
+Clean a project built using the Release configuration:
 
 `dotnet clean --configuration Release`
